@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Public",
+                "${workspaceFolder}/GPIO",
+                "/usr/share/sdcc/include",
+                "/usr/share/sdcc/include/mcs51"
+            ],
+            "defines": ["__SDCC__"],
+            "compilerPath": "",  // SDCC 不需要 GCC 路径，可留空
+            "cStandard": "c99",
+            "intelliSenseMode": "gcc-x86",  // 或设为 "msvc-x64"，影响不大
+            "forcedInclude": []
+        }
+    ],
+    "version": 4
+}
